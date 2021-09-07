@@ -1,0 +1,13 @@
+<h1><%= title %> in EJS</h1> <%# =variable, знак "=" перетворює значення змінної в текст %>
+
+<% if(emailsVisible) { %> <%# блоки в яких пишем код js%>
+    <h3>email addresses</h3>
+    <ul>
+        <% for(var i = 0; i < emails.length;i++) { %>
+        <li><%= emails[i] %></li>
+        <% } %>
+    </ul>
+<% }else { %>
+    <h3>don't have email address</h3>
+<% } %>
+<p>phone number: <%= phone %></p>

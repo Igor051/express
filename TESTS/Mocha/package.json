@@ -1,0 +1,15 @@
+{
+  "name": "unit_tests_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "operations.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.1.0"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
